@@ -9,7 +9,7 @@ def get_api(cfg):
 
 # **main** gets the data to be used in *get_api* 
 def main():
-  # Fill in the values noted in previous step here
+  # Fill in the values received from apps.twitter.com
   cfg = { 
     "consumer_key"        : "VALUE_HERE",
     "consumer_secret"     : "VALUE_HERE",
