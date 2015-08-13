@@ -19,8 +19,7 @@ def main():
 
   api = get_api(cfg)
   tweet = raw_input("Enter your Tweet: \t")
-  status = api.update_status(status=tweet) 
-  # Yes, tweet is called 'status' rather confusing
+  status = api.update_status(status=tweet)
 
 if __name__ == "__main__":
   main()
