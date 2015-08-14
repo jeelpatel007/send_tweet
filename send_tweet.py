@@ -19,6 +19,7 @@ def main():
 
   api = get_api(cfg)
   tweet = raw_input("Enter your Tweet: \t")
+  # 'update_status' object is actually a command for updating a tweet!
   status = api.update_status(status=tweet)
 
 if __name__ == "__main__":
